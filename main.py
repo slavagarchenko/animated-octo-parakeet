@@ -27,7 +27,7 @@ def main():
     total_fuel_consumption_to_Tomsk = (
         distance_to_Tomsk / average_fuel_consumption)
 
-    if fuel_number == '92':
+    if fuel_number == 92:
         cost_fuel_to_Moscow = (
             total_fuel_consumption_to_Moscow * price_fuel_92)
         cost_fuel_to_Saint_Petersburg = (
@@ -42,7 +42,7 @@ def main():
         print(f'{ru.COST_FUEL} {ru.DESTINATION_TOMSK} - '
               f'{round(cost_fuel_to_Tomsk, 2)} {ru.CURRENCY}')
 
-    elif fuel_number == '95':
+    elif fuel_number == 95:
         cost_fuel_to_Moscow = (
             total_fuel_consumption_to_Moscow * price_fuel_95)
         cost_fuel_to_Saint_Petersburg = (
@@ -57,7 +57,7 @@ def main():
         print(f'{ru.COST_FUEL} {ru.DESTINATION_TOMSK} - '
               f'{round(cost_fuel_to_Tomsk, 2)} {ru.CURRENCY}')
 
-    elif fuel_number == '98':
+    elif fuel_number == 98:
         cost_fuel_to_Moscow = (
             total_fuel_consumption_to_Moscow * price_fuel_98)
         cost_fuel_to_Saint_Petersburg = (
